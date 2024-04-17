@@ -95,7 +95,8 @@ header .description-product {
     flex-direction: row;
     align-items: center;
     box-shadow: 0px 0px 5px #ccc;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
     padding: 50px;
 }
 
@@ -103,24 +104,111 @@ header .description-product {
     width: 300px;
 }
 
+.box-buy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px#ccc;
+    padding: 30px 20px;
+    width: 500px;
+    margin: auto;
+}
 
+.box-buy h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
 
+.box-buy {
+    position: relative;
+    top: 50px;
+    z-index: 1;
+    background-color: #fff;
+}
 
+.box-buy button {
+    color: #fff;
+    background-color: #FF5FC6;
+    border-radius: 20px;
+    padding: 15px 40px;
+    border: 0;
+    box-shadow: 0px 3px 5px #ccc;
+}
 
+.footer {
+    background-color: #00252E;
+}
 
+footer {
+    width: 90%;
+    margin: auto;
+}
 
+footer .footer-huddle {
+    display: flex;
+    flex-direction: column;
+}
 
+.footer-huddle {
+    padding-top: 100px;
+}
 
+.logo-footer {
+    color: #fff;
+}
 
+.info-business-huddle {
+    display: flex;
+    justify-content: space-between;
+}
 
+.location {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    color: #cccccc;
+    gap: 10px;
+}
 
+.location-business {
+    display: flex;
+}
 
+.location img {
+    margin-right: 15px;
+}
 
+.location-business .text-location-business {
+    display: inline;
+}
 
+.about-business {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    color: #ccc;
+}
 
+.about-business .about1,
+.about-business .about2 {
+    display: flex;
+    flex-direction: column;
+}
 
+.social-media {
+    display: flex;
+    width: 30%;
+    gap: 10px;
+}
 
-
+.social-media img {
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 5px;
+}
 
 
 
