@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+.container {
+    width: 100%;
+}
+
+.header {
+    background-image: url(images/bg-hero-desktop.svg);
+    background-position: center;
+    background-size: cover;
+}
+
+header {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: auto;
+    padding: 20px;
+}
+
+header .menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu img {
+    width: 200px;
+}
+
+header .description-product {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.menu #button-menu {
+    padding: 13px 30px;
+    color: #00252E;
+    background-color: #fff;
+    border: 0px;
+    box-shadow: 0px 0px 5px #ccc;
+    border-radius: 20px;
+}
+
+.description-product img {
+    width: 700px;
+}
+
+.description-product .text-product {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-product h1 {
+    font-size: 30px;
+    width: 400px;
+    color: #00252E;
+}
+
+.text-product p {
+    font-size: 14px;
+    margin-top: 0;
+    width: 440px;
+}
+
+.text-product #pink-button {
+    color: #fff;
+    background-color: #FF5FC6;
+    padding: 13px 20px;
+    border-radius: 20px;
+    border: 0px;
+    width: 50%;
+    font-weight: 700;
+    box-shadow: 0px 0px 10px #ccc;
+}
+
+.description {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    
+}
+
+.description .container-description {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-shadow: 0px 0px 5px #ccc;
+    margin-bottom: 20px;
+    padding: 50px;
+}
+
+.container-description img {
+    width: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
